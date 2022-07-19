@@ -1,3 +1,5 @@
+# TC : O(n*m^2 logm) # mlogm for sorting, m for finding the hashcode of the string. n is the length of the list
+# SC : O(1) 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         anagrams = {}
